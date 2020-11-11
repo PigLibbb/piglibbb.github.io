@@ -8,7 +8,7 @@ subtitle: ''
 description: ''
 keywords:
 author: 猪李
-language: zh-Hans
+language: zh-CN
 timezone: ''
 
 # URL
@@ -103,4 +103,6 @@ theme: 3-hexo
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/PigLibbb/piglibbb.github.io.git
+  branch: master
